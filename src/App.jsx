@@ -5,13 +5,15 @@ import { GrFormUp, GrNext } from "react-icons/gr";
 import { GrPrevious } from "react-icons/gr";
 import Slider from "./Slider";
 import Todo from "./Todo";
+import Password from "./Password";
+import Api from "./Api";
 
 
 // function App() {
-//   const [length, setLength] = useState(6);
-//   const [numberAllow, setNumberAllow] = useState(false);
-//   const [characterAllow, setCharacterAllow] = useState(false);
-//   const [password, setPassword] = useState("");
+  // const [length, setLength] = useState(6);
+  // const [numberAllow, setNumberAllow] = useState(false);
+  // const [characterAllow, setCharacterAllow] = useState(false);
+  // const [password, setPassword] = useState("");
 
 //  const reGenerateButton =  useCallback(() => {
 //     let pass = "";
@@ -250,7 +252,10 @@ function App(){
 
     <>
 
-    <Todo/>
+    {/* <Todo/> */}
+    <Slider/>
+    <Password/>
+    {/* <Api/> */}
     
     </>
   )
